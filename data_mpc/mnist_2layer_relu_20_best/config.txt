@@ -1,0 +1,14 @@
+# CROWN MPC Configuration
+# Model file: mnist_2layer_relu_20_best
+
+num_layers=2
+layer_dims=784,20,10
+weights_file=weights/weights.dat
+eps=0.1
+
+# Parsed parameters
+model=mnist
+numlayer=2
+hidden=20
+activation=relu
+modeltype=best
